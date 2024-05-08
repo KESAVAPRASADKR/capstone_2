@@ -27,16 +27,8 @@ After creating the data frame we need to clean the data to the required format f
  In certain data frame the values are filled as null for such data we used  Dropna()  function To clean that data
 ## Data storage
 For each data frame we created we will try to create a replica of that particular data frame into an sql table for each and every data set once that is created using my sql we will try to insert that data using sql alchemy and my sql connector into the required table
-## Data extraction
-We used the following code !git clone https://github.com/PhonePe/pulse.git To create a phonepe pulse data copy from github For this we need to install Github Innova System
-After creating the clone of that particular git hub file We should copy the path of that file and store it in a variable We use os.listdir("path variable') To create the path of the each file
-We will stole the required date of while creating each file into a separate variable in form of list and at the end we will try to  Extract the data from the Json file in the folders state for each year's in that folder and store that data into a dictionary format
-The stored data in the dictionary format is converted into a pandas data frame which will be used to clean the data in the future
-## Data extraction
-We used the following code !git clone https://github.com/PhonePe/pulse.git To create a phonepe pulse data copy from github For this we need to install Github Innova System
-After creating the clone of that particular git hub file We should copy the path of that file and store it in a variable We use os.listdir("path variable') To create the path of the each file
-We will stole the required date of while creating each file into a separate variable in form of list and at the end we will try to  Extract the data from the Json file in the folders state for each year's in that folder and store that data into a dictionary format
-The stored data in the dictionary format is converted into a pandas data frame which will be used to clean the data in the future
+
+
 ## Data extraction from my sql
 By using my SQL connector we will try to establish a connexion between my sql database we will write queries for each table to create a data frame for data visualisation using plotly
 We will create a data frame for each and every graph and chart we need to visualise
