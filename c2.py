@@ -45,7 +45,7 @@ def visualization_of_data():
             query = "SELECT State, Year, Quater, Transaction,Count, Amount FROM t_1 WHERE Year = %s AND Quater = %s AND State = %s"
             col1, col2, col3 = st.columns(3)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -63,7 +63,7 @@ def visualization_of_data():
             query = "SELECT State, Year, Quater, Transaction,Count, Amount FROM t_1 WHERE Year = %s AND Quater = %s AND State = %s"
             col1, col2, col3 = st.columns(3)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -86,7 +86,7 @@ def visualization_of_data():
             st.title("Bar Chart for state")
             col1, col2 = st.columns(2)
 
-            # Example user-provided values
+             #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -136,7 +136,7 @@ def visualization_of_data():
             query = "SELECT State, Year, Quater, Regestered_users,AppOpens FROM t_2 WHERE Year = %s AND Quater = %s AND State = %s"
             col1, col2, col3 = st.columns(3)
 
-            # Example user-provided values
+          #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -155,7 +155,7 @@ def visualization_of_data():
             st.title("Bar Chart for state")
             col1, col2 = st.columns(2)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -188,7 +188,7 @@ def visualization_of_data():
             query = "SELECT State, Year, Quater,Brand,Count,Percentage FROM t_3 WHERE Year = %s AND Quater = %s AND State = %s"
             col1, col2, col3 = st.columns(3)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -206,7 +206,7 @@ def visualization_of_data():
             query = "SELECT State, Year, Quater,Brand,Count,Percentage FROM t_3 WHERE Year = %s AND Quater = %s AND State = %s"
             col1, col2, col3 = st.columns(3)
 
-            # Example user-provided values
+             #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -229,7 +229,7 @@ def visualization_of_data():
             st.title("Bar Chart for state")
             col1, col2 = st.columns(2)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -306,7 +306,7 @@ def visualization_of_data():
             mydb.close()
             col1, col2 = st.columns(2)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(), index=0)
             with col2:
@@ -374,7 +374,7 @@ def visualization_of_data():
         def map_users_appopen():
             col1, col2 = st.columns(2)
 
-            # Example user-provided values
+           #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(), index=0)
             with col2:
@@ -415,7 +415,7 @@ def visualization_of_data():
             query = "SELECT State, Year, Quater,District,count,amount FROM t_4 WHERE Year = %s AND Quater = %s AND State = %s"
             col1, col2, col3 = st.columns(3)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -433,7 +433,7 @@ def visualization_of_data():
             query = "SELECT State, Year, Quater,District,count,amount FROM t_4 WHERE Year = %s AND Quater = %s AND State = %s"
             col1, col2, col3 = st.columns(3)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -456,7 +456,7 @@ def visualization_of_data():
             st.title("Bar Chart for state")
             col1, col2 = st.columns(2)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -503,11 +503,11 @@ def visualization_of_data():
         mydb.close()
 
         def table():
-        # Define your SQL query
+        # write SQL query
             query = "SELECT State, Year, Quater,Pincode,Count,Amount FROM t_5 WHERE Year = %s AND Quater = %s AND State = %s"
             col1, col2, col3 = st.columns(3)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -526,7 +526,7 @@ def visualization_of_data():
             query = "SELECT State, Year, Quater,Pincode,Count,Amount FROM t_5 WHERE Year = %s AND Quater = %s AND State = %s "
             col1, col2, col3 = st.columns(3)
 
-            # Example user-provided values
+             #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -552,7 +552,7 @@ def visualization_of_data():
             st.title("Bar Chart for state")
             col1, col2 = st.columns(2)
 
-            # Example user-provided values
+             #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -603,7 +603,7 @@ def visualization_of_data():
             query = "SELECT State, Year, Quater,District,registeredUsers FROM t_6 WHERE Year = %s AND Quater = %s AND State = %s"
             col1, col2, col3 = st.columns(3)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -622,7 +622,7 @@ def visualization_of_data():
             st.title("Bar Chart for state")
             col1, col2,col3 = st.columns(3)
 
-            # Example user-provided values
+            #  user-provided values to add in sql query
             with col1:
                 year = st.selectbox("select the year:", Df1['Year'].unique(),index=0)
             with col2:
@@ -649,7 +649,7 @@ def visualization_of_data():
 
         }
         page_details[selected_page]()
-    
+    # creating sidebar for datavisualization
     page = ['user_transaction','user_registration','users_brand','map_transaction','map_users',
             'user_district_transaction','user_pincode_transaction','user_district_registration']
     selected_page = st.sidebar.selectbox('Select a type of data:', page)
@@ -665,7 +665,6 @@ def visualization_of_data():
             }
 
     page_details[selected_page]()
-
 #Creating a scroll bar for 10 different questions which can be selected by the users and the answers will be displayed
 def Question():   
     st.sidebar.title("Questions")
@@ -787,14 +786,7 @@ def Question():
         st.plotly_chart(c1)
         st.write(Dq_10)
 
-
-
-
-
-
-
-
-
+# code for select pages in dashboard
 
 page = ['home', 'about', 'visualization_of_data','Question']
 selected_page = st.sidebar.selectbox('Select a page:', page)
